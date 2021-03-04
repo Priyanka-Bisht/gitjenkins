@@ -4,6 +4,6 @@ RUN apt-get update
 RUN apt-get install –y apache2 
 RUN apt-get install –y apache2-utils 
 RUN apt-get clean 
-RUN echo"welcome kutte, jenkins file" > /tmp/
+RUN echo"welcome guys jenkins file" > /tmp/
 EXPOSE 80 
 CMD [“apache2ctl”, “-D”, “FOREGROUND”]
